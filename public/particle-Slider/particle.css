@@ -15,6 +15,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  canvas.draw {
+    display: none !important;
+  }
+}
+
+
 /* // dribbble - twitter */
 .dribbble {
   /* position: fixed; */

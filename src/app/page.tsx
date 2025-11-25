@@ -253,16 +253,19 @@ export default function Home() {
         <div className="relative z-20 flex items-center justify-between h-full px-6 md:px-20">
           {/* Text Section Left */}
           <div className="flex-1 text-left">
-            <h2
-              className="leading-tight mb-4 px-8"
-              style={{ fontSize: "clamp(2.5rem, 3.5vw, 4rem)",marginLeft:"50px" }}
-            >
+           <h2 className="myHeading">
+  
+
 
                 {/* 🔴 Bottom Left Ring */}
-        <div
-  className="absolute top-[40px] left-[-100px] z-[-10px] pointer-events-none"
-  style={{ width: "400px", height: "400px" }}
+<div
+  className={`
+    absolute
+    top-[-10px] left-[-50px] w-[200px] h-[200px] z-[0] pointer-events-none
+    sm:top-[40px] sm:left-[-100px] sm:w-[400px] sm:h-[400px]
+  `}
 >
+
   <div
     style={{
       width: "100%",

@@ -27,7 +27,7 @@ export default function RotatingText({
       <AnimatePresence mode="wait">
         <motion.div
           key={index}
-          className="flex flex-wrap justify-left sm:justify-start text-center sm:text-left ml-10"
+          className="flex flex-wrap justify-left sm:justify-start text-center sm:text-left "
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
