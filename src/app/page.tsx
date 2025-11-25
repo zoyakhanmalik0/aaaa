@@ -247,10 +247,12 @@ export default function Home() {
 
       {/* Navigation */}
       <Navigation />
-      <div className="relative h-[120vh] w-full overflow-hidden">
+      <div className="relative h-[75vh] md:h-[120vh] w-full overflow-hidden">
+
 
         {/* Hero Content */}
-        <div className="relative z-20 flex items-center justify-between h-full px-6 md:px-20">
+       <div className="relative z-20 flex items-center justify-between h-[65vh] md:h-[120vh] px-6 md:px-20">
+
           {/* Text Section Left */}
           <div className="flex-1 text-left">
            <h2 className="myHeading">

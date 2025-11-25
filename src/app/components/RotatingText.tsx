@@ -35,7 +35,7 @@ export default function RotatingText({
           {currentText.map((word, i) => (
             <motion.span
               key={i}
-              className="text-red-500 font-bold sm:font-normal inline-block mr-2"
+              className="text-red-500 font-bold sm:font-normal inline-block mr-2 sm:ml-[50px]"
               style={{ fontSize }}
               initial={{ x: -20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
