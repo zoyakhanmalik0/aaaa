@@ -78,6 +78,7 @@ export default function Footer() {
       "Contact Us",
       "Privacy Policy",
       "Terms of Services",
+      "Refund Policy",
     ].map((link, idx) => (
       <li key={idx}>
         <Link

@@ -10,6 +10,7 @@ export const services = [
   { name: "Android & iOS Development", slug: "app-development" },
   { name: "Digital Marketing", slug: "digital-marketing" },
   { name: "Graphic Designing", slug: "graphic-designing" },
+  { name: "Logo Design", slug: "logo-design" },
   { name: "Social Media Marketing", slug: "social-media-marketing" },
   { name: "Content Writing", slug: "content-writing" },
   { name: "SEO", slug: "search-engine-optimization" },
